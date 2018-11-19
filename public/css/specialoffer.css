@@ -1,0 +1,82 @@
+.navbar-default {
+    
+     box-shadow: none
+}
+.item img {
+    opacity:1;
+    
+
+}
+
+.client .feat {
+    width:100%;
+    padding-top: 40px
+    
+}
+.client .feat img{
+    width:100%;
+   
+}
+/*start tablet media */
+@media only screen and (max-width: 768px) and (min-width: 435px) 
+{
+ .brandd img{
+    padding-bottom: 10px;
+     width: 300px
+}
+}
+/*end tablet */
+
+
+/*start mob media */
+@media only screen and (max-width: 425px) and (min-width: 396px) 
+{
+
+
+ .brandd img{
+    margin-left: 50px;
+     width: 400px;
+      
+     
+}
+  
+}
+/*end mob media */
+@media only screen and (max-width: 396px) and (min-width: 375px) 
+{
+
+
+ .brandd img{
+    margin-left: 30px;
+     width: 400px;
+      
+     
+}
+  
+}
+/*end mob media */
+/*start mob media*/
+@media only screen and (max-width: 435px) and (min-width: 375px) 
+{
+ .brandd img{
+    
+     width: 320px;
+     
+     
+}
+  
+}
+/*end mob media */
+
+/*start mob media */
+@media only screen and (max-width: 375px) and (min-width: 320px) 
+{
+ .brandd img{
+    
+     width: 290px;
+     
+     
+}
+
+}
+/*end mob media */

@@ -1,0 +1,63 @@
+
+.navbar-default {
+    background-color: #1b191a;
+     border-color: #1b191a;
+    border-radius: 0px;
+     box-shadow: none
+}
+.prov-img img{width: 100%}
+
+/*start  media */
+@media only screen and (max-width: 2560px) and (min-width: 1440px) 
+{
+ .prov-img {
+    width: 1500px;
+    min-height:600px ;
+     margin: 0;
+     padding: 0
+}
+    
+ 
+}
+
+/*end  */
+.client{
+    width: 100%;
+    min-height: 500px;
+    background-color: #f2f2f2
+}
+.client p,.class-app .h1{
+    padding: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #b28643
+}
+.client .feat {
+    width:100%;
+    
+}
+.client .feat img{
+    width:100%;
+   
+}
+.class-app .h1{
+    padding: 0
+}
+.class-app p{
+    font-size: 16px;
+    color: #888;
+    padding-bottom: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

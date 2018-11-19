@@ -1,0 +1,17 @@
+.editslide,
+.addSlide {
+    background: #EEE;
+    border: 1px solid #DDD;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.editslide {
+    position: absolute;
+    top: 10%;
+    display: none;
+}
+
+textarea {
+    resize: none;
+}

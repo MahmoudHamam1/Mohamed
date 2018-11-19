@@ -1,0 +1,43 @@
+.addingToFrinds,
+.hotlineNav {
+    display: none;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px
+}
+
+input[type="text"],
+.btn,
+textarea {
+    width: 70%
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+    height: 550px
+}
+
+.alert ul li {
+    font-size: 18px;
+    text-align: center;
+}
+
+.register {
+    min-height: auto;
+    background-color: #f2f2f200;
+}
+
+@media only screen and (max-width: 750px) {
+    .addingToFrinds {
+        display: block;
+    }
+    .hotlineNav {
+        padding-left: 4px;
+        text-align: left;
+        margin-top: 10px;
+        float: left;
+        display: inline;
+    }
+}

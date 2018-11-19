@@ -1,0 +1,28 @@
+html,body {font-family: 'Tajawal', sans-serif;}
+
+.navbar .direction {
+    width: 600px;
+    margin: 0 auto;
+    text-align: right
+}
+
+.footer_title {
+    text-align: right
+}
+
+.footer .third table tr td:last-child {
+    text-align: right;
+    padding-right: 10px
+}
+
+.partners {
+    text-align: center;
+    padding: 0px 0 30px;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .navbar .direction {
+        width: auto
+    }
+}

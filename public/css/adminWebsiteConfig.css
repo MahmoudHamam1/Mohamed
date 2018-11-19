@@ -1,0 +1,71 @@
+.webConfig {
+    padding: 15px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-top: 75px;
+    padding-bottom: 50px;
+}
+
+textarea {
+    resize: none;
+}
+
+@media only screen and (max-width:1200px) {
+    .webConfig {
+        width: 100%;
+    }
+}
+
+.webConfig img {
+    width: 150px;
+    height: 150px;
+}
+
+h3 {
+    text-align: right;
+}
+
+* label,
+.btn {
+    float: right;
+}
+
+.webConfig form .row {
+    margin-top: 30px;
+}
+
+.webConfig .inputfile {
+    display: none;
+}
+
+.websiteLogo span,
+.websiteLocation span {
+    font-size: 30px;
+    position: absolute;
+    background: #e2e1e1;
+    border: 1px solid #ccc;
+    padding: 0px 10px;
+    border-radius: 50%;
+    bottom: 0;
+    cursor: pointer;
+    right: 30%;
+    color: #999;
+    transition: all 1s ease-in-out;
+}
+
+.websiteLogo span:hover,
+.websiteLogo span:active,
+.websiteLocation span:hover,
+.websiteLocation span:active {
+    padding: 0px 30px;
+    background: #FFF;
+}
+
+.websiteLogo,
+.websiteLocation {
+    text-align: center;
+}
+
+;

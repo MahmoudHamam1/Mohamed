@@ -1,0 +1,22 @@
+.showMessage {
+    position: absolute;
+    background: #EEE;
+    top: 10%;
+    border: 1px solid #DDD;
+    border-radius: 15px;
+    padding: 10px;
+    display: none;
+}
+
+.showMessage p {
+    overflow: auto;
+    padding: 10px;
+    background: #fff;
+    font-size: 18px;
+    max-height: 150px;
+}
+
+.showMessage h3,
+.showMessage h4 {
+    text-align: left;
+}
